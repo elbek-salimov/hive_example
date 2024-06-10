@@ -33,7 +33,7 @@ class _SecondScreenState extends State<SecondScreen> {
               controller: name,
               decoration: InputDecoration(
                 labelText: 'Name',
-                enabledBorder: OutlineInputBorder(
+                border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -43,7 +43,7 @@ class _SecondScreenState extends State<SecondScreen> {
               controller: brand,
               decoration: InputDecoration(
                 labelText: 'Brand',
-                enabledBorder: OutlineInputBorder(
+                border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -54,7 +54,7 @@ class _SecondScreenState extends State<SecondScreen> {
               controller: price,
               decoration: InputDecoration(
                 labelText: 'Price',
-                enabledBorder: OutlineInputBorder(
+                border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),

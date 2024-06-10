@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextField(
               controller: controller1,
               decoration: InputDecoration(
-                enabledBorder: OutlineInputBorder(
+                border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextField(
               controller: controller2,
               decoration: InputDecoration(
-                enabledBorder: OutlineInputBorder(
+                border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
